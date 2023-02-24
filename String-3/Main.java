@@ -1,4 +1,9 @@
 public class Main {
+
+    public static void main(String[] args){
+          
+    }
+
     public String withoutString(String base, String remove) {
         int idx = 0;
         while(idx<=base.length()-remove.length()){
@@ -17,9 +22,5 @@ public class Main {
           if(str.charAt(i-2)==str.charAt(i-1) && str.charAt(i-1)==str.charAt(i))
             cnt++;
         return cnt;
-    }
-
-    public static void main(String[] args){
-        
     }
 }
