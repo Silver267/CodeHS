@@ -1,4 +1,9 @@
 public class Main {
+
+    public static void main(String[] args){
+        
+    }
+
     public boolean has12(int[] nums){
         boolean asdf = false;
         for(int i:nums){
@@ -8,9 +13,5 @@ public class Main {
             asdf = true;
         }
         return false;
-    }
-
-    public static void main(String[] args){
-        
     }
 }
